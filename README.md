@@ -12,5 +12,5 @@ Run with
 
     node app.js
 
-The App is really simple ,allows to convert an img (color or bw) to monochromatic array of bytes (that I use to render on LCS/OLED screen with arduino).
+The App is really simple ,allows to convert an img (color or bw) to monochromatic array of bytes (that I use to render on LCD/OLED screen with arduino).
 The code is not really elegant but it does the job.
