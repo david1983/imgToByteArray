@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="main.css" rel="stylesheet">
+  <title>JS Bin</title>
+</head>
+<body>
+  <br><br>
+  <div style="padding:1em;">
+    <input type="number" id="threshold" value="180"
+           placeholder="threshold"><br><br>
+    <canvas id="canvas"     
+    style="border: 1px solid #222;width:100px;cursor:pointer">      
+    </canvas>
+    <canvas id="canvas2"  style="border: 1px solid #222;cursor:pointer"></canvas><br>
+    <div>
+    <button onclick="changeColor('white')">white</button>
+    <button onclick="changeColor('black')">black</button>
+    <button onclick="reset(context)">Reset</button>
+      <br><br>
+    <input type='file' id='imgfile' />
+    <input type='button' id='btnLoad' value='Load' onclick='loadImage();' />
+    </div>
+    <hr>
+    <div>
+      <input type="number" placeholder="width" step="8" id="w">
+      <input type="number" placeholder="height" step="8" id="h">
+      <button onclick="set()">set</button>
+    </div>
+    
+    <hr>
+    <pre id="bytes">
+      
+    </pre>
+    <!-- <input type="file"> -->
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
