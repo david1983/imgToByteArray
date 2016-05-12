@@ -4,7 +4,9 @@ Convert image to byte array.
 Installation:
 Clone it and install deps with
 
-    git clone https://github.com/david1983/imgToByteArray.git && cd imgToByteArray && npm install
+    git clone https://github.com/david1983/imgToByteArray.git && 
+    cd imgToByteArray && 
+    npm install
 
 Run with
 
